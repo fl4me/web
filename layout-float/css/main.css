@@ -1,0 +1,42 @@
+/**初始化浏览器样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrap{
+	margin-left:auto;
+margin-right:auto;
+	width: 970px;
+}
+#header{
+	background: wheat;
+	width: 100%;
+	padding: 20px;
+}
+#main-body{
+	overflow: hidden;
+	padding: 20px;
+	background: green;
+	height: 300px;
+	width: 100%;
+}
+#footer{
+	width: 100%;
+	padding: 20px;
+	background-color: gray;
+}
+.left{
+	height: inherit;
+	width: 70%;
+	float: left;
+	background: purple;
+	
+}
+.right{
+	width: 28%;
+	height: inherit;
+	background: red;
+	float: right;
+	
+	
+}
